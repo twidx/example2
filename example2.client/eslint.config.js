@@ -14,14 +14,4 @@ export default [
 
   ...pluginVue.configs['flat/essential'],
   ...vueTsEslintConfig(),
-
-  {
-    rules: {
-      "vue/multi-word-component-names": "off",
-      "vue/require-v-for-key": "off",
-      "vue/valid-v-for": "off",
-      "@typescript-eslint/no-explicit-any": "off",
-      "@typescript-eslint/no-unsafe-function-type": "off"
-    }
-  }
 ]
