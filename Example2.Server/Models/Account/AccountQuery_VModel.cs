@@ -6,5 +6,7 @@ namespace Example2.Server.Models.Account
     public class AccountQuery_VModel : Base_VModel
     {
         public List<AccountItem>? Results { get; set; }
+
+        public int Total { get; set; }
     }
 }
